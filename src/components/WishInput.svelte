@@ -18,7 +18,7 @@
 <div class="wishinput_container">
   <form>
     <input
-      maxlength="20"
+      maxlength="25"
       placeholder="Add your wish..."
       bind:value={wish}
       class="wishinput_input"
@@ -36,24 +36,26 @@
 <style type="text/scss">
   .wishinput {
     &_container {
-      display: flex;
-      justify-content: center;
+      width: 100%;
 
       form {
-        width: 235px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
       }
     }
 
     &_input {
+      flex: 2 1;
       background-color: #c7d8ec;
       border-bottom-left-radius: 50px;
       border-top-left-radius: 50px;
-      padding-left: 8px;
-      padding-right: 8px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-right: 2px;
       border: none;
       color: rgb(49, 49, 49);
       height: 30px;
-      width: 164px;
       transition: background-color 200ms;
 
       &::placeholder {
@@ -68,6 +70,8 @@
     }
 
     &_button {
+      flex: 0 1;
+      margin-left: 2px;
       background-color: #c7d8ec;
       border-top-right-radius: 50px;
       border-bottom-right-radius: 50px;
@@ -75,8 +79,7 @@
       font-size: 16px;
       color: #c7d8ec;
       height: 30px;
-      width: 50px;
-      padding-right: 2px;
+      padding-right: 8px;
       border: none;
       transition: color 200ms, background-color 200ms;
 

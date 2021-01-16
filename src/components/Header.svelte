@@ -5,26 +5,24 @@
   </div>
 </div>
 
-<style>
+<style type="text/scss">
   .header {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    height: 70px;
     text-align: center;
-  }
 
-  .header_container {
-    padding-top: 18px;
-  }
+    &_container {
+      padding-bottom: 24px;
+    }
 
-  .header_logo {
-    font-size: 28px;
-    color: #ff008e;
-    font-weight: 600;
-  }
+    &_logo {
+      font-size: 28px;
+      color: #ff008e;
+      font-weight: 600;
 
-  .header_logo_accent {
-    color: #ff008e;
-    font-weight: 200;
+      &_accent {
+        font-weight: 200;
+      }
+    }
   }
 </style>

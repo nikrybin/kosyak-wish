@@ -34,16 +34,15 @@
     &_container {
       display: flex;
       justify-content: center;
-      height: 210px;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      height: 242px;
+      padding-bottom: 4px;
     }
 
     &_list {
       list-style: none;
       padding-left: 0;
       overflow-y: scroll;
-      width: 235px;
+      width: 100%;
     }
 
     &_item {
@@ -63,8 +62,8 @@
         line-height: 24px;
         padding-top: 3px;
         padding-bottom: 3px;
-        padding-left: 8px;
-        font-weight: 500;
+        padding-left: 10px;
+        font-weight: 400;
       }
 
       button {

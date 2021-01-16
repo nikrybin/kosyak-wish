@@ -46,10 +46,11 @@
     &_container {
       display: flex;
       justify-content: center;
+      height: max-content;
     }
 
     &_button {
-      width: 235px;
+      width: 100%;
       border-radius: 50px;
       border: none;
       background-color: #c7d8ec;
@@ -57,7 +58,7 @@
       color: #95a4b6;
       height: 30px;
       transition: background-color 200ms, color 200ms;
-      font-weight: 600;
+      font-weight: 400;
 
       &_active {
         background-color: #ff008e;
