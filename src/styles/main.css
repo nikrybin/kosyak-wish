@@ -1,0 +1,12 @@
+html {
+  background: #0d8abc;
+  background-attachment: fixed;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+*:focus {
+  outline: none;
+}
