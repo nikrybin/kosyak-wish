@@ -3,11 +3,20 @@
 
   const shareWishlist = () => {
     const generateText = () => {
-      const sharableText = $wishes.reduce(
-        (prevValue, currValue) => `- ${prevValue.title} \n- ${currValue.title}`
-      );
+      let sharableText = "";
+      if ($wishes.length === 1) {
+        sharableText = `- ${$wishes[0].title}`;
+      } else {
+        sharableText = $wishes.reduce(
+          (prevValue, currValue) =>
+            (prevValue.title ? "- " : "") +
+            (prevValue.title || prevValue) +
+            "\n- " +
+            currValue.title
+        );
+      }
 
-      return `This is my wish list! ☺️\n ${sharableText}\n Buy me all of it, please 🥺 💕`;
+      return `\nThis is my wish list! ☺️\n ${sharableText}\n Buy me all of it, please 🥺 💕`;
     };
 
     navigator.clipboard.writeText(generateText()).then(
