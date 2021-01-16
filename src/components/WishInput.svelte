@@ -46,6 +46,7 @@
     }
 
     &_input {
+      padding: 0;
       flex: 2 1;
       background-color: #c7d8ec;
       border-bottom-left-radius: 50px;
