@@ -53,7 +53,7 @@
       border: none;
       color: rgb(49, 49, 49);
       height: 30px;
-      width: 180px;
+      width: 164px;
       transition: background-color 200ms;
 
       &::placeholder {
