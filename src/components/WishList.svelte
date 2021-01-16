@@ -34,7 +34,7 @@
     &_container {
       display: flex;
       justify-content: center;
-      height: 235px;
+      height: 245px;
     }
 
     &_list {
