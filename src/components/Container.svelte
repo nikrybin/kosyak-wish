@@ -19,5 +19,6 @@
     height: 400px;
     border-radius: 8px;
     box-shadow: 0px 8px 13px 2px rgba(0, 0, 0, 0.39);
+    transform: translateY(50%);
   }
 </style>
