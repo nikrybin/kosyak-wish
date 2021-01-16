@@ -49,6 +49,7 @@
       border: none;
       color: rgb(49, 49, 49);
       height: 30px;
+      width: 190px;
       transition: background-color 200ms;
       &::placeholder {
         color: #95a4b6;

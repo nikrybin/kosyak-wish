@@ -34,7 +34,9 @@
     &_container {
       display: flex;
       justify-content: center;
-      height: 245px;
+      height: 210px;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
 
     &_list {
