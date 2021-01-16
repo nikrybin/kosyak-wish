@@ -38,6 +38,10 @@
     &_container {
       display: flex;
       justify-content: center;
+
+      form {
+        width: 235px;
+      }
     }
 
     &_input {
@@ -49,8 +53,9 @@
       border: none;
       color: rgb(49, 49, 49);
       height: 30px;
-      width: 190px;
+      width: 180px;
       transition: background-color 200ms;
+
       &::placeholder {
         color: #95a4b6;
       }
@@ -70,9 +75,10 @@
       font-size: 16px;
       color: #c7d8ec;
       height: 30px;
+      width: 50px;
+      padding-right: 2px;
       border: none;
       transition: color 200ms, background-color 200ms;
-      padding-right: 8px;
 
       &_active {
         background-color: #ff008e;
