@@ -34,14 +34,13 @@
     &_container {
       display: flex;
       justify-content: center;
-      padding-bottom: 4px;
     }
 
     &_list {
       list-style: none;
       padding-left: 0;
       overflow-y: scroll;
-      height: 218px;
+      height: 220px;
       width: 100%;
     }
 
