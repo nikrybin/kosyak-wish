@@ -1,6 +1,6 @@
 {
-  "name": "svelte-app",
-  "version": "1.0.0",
+  "name": "kosyak-wish",
+  "version": "0.0.20",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
