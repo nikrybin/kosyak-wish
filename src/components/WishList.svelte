@@ -40,7 +40,7 @@
       list-style: none;
       padding-left: 0;
       overflow-y: scroll;
-      height: 220px;
+      height: 228px;
       width: 100%;
     }
 
