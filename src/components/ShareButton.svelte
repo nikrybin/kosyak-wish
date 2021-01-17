@@ -16,7 +16,7 @@
         );
       }
 
-      return `\nThis is my wish list! ☺️\n ${sharableText}\n Buy me all of it, please 🥺 💕`;
+      return `This is my wish list! ☺️\n${sharableText}\nBuy me all of it, please 🥺 💕`;
     };
 
     navigator.clipboard.writeText(generateText()).then(
