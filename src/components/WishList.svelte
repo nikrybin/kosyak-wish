@@ -34,7 +34,6 @@
     &_container {
       display: flex;
       justify-content: center;
-      height: 242px;
       padding-bottom: 4px;
     }
 
@@ -42,6 +41,7 @@
       list-style: none;
       padding-left: 0;
       overflow-y: scroll;
+      height: 218px;
       width: 100%;
     }
 

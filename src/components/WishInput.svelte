@@ -58,6 +58,7 @@
       color: rgb(49, 49, 49);
       height: 30px;
       transition: background-color 200ms;
+      font-size: 16px;
 
       &::placeholder {
         color: #95a4b6;

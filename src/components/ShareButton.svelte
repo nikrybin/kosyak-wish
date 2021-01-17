@@ -59,6 +59,7 @@
       height: 30px;
       transition: background-color 200ms, color 200ms;
       font-weight: 400;
+      font-size: 16px;
 
       &_active {
         background-color: #ff008e;
